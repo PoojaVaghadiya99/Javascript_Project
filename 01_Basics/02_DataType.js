@@ -25,21 +25,17 @@ console.log(typeof null) // object
 
 /*
 
-typeof() 
+typeof()____________________________________________________________
 
 undefined  => undefined
 null       => object
 boolean    => boolean
 number     => number
 string     => string
+date       => object
 
 
-*/
-
-
-/*
-
-Primitive Data Type
+Primitive Data Type_____________________________________________
 
 7 Type = Call by Value
 
@@ -73,5 +69,11 @@ Return type of variables in JavaScript
        Object     => object
 
 
+
+
+Memory____________________________________________________________
+
+Stack => Primitive        => Copy of Variable
+Heap  => Non Primitive    => Refrence of Variable
 
 */
